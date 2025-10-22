@@ -3,12 +3,16 @@
      padding: 0;
 }
 
+body{
+     font-family: Arial, Helvetica, sans-serif;
+}
+
 .header{
      display: flex;
      height: 80px;
      gap: 60px;
      align-items: center;
-
+     background-color: #f0f0f0;
 }
 
 .logo h1 img{
@@ -33,21 +37,107 @@
      right: 0;
      display: flex;
      color: #fff;
-     font-size: 8px;
+     font-size: 12px;
      width: 200px;
      height: 80px;
      background-color: #000;
      justify-content: center;
+     text-align: center;
      align-items: center;
+     a{
+          position: relative; 
+          text-decoration: none;
+          color: #fff;
+          padding:30px 64px 30px;
+     }
 }
 
-#home{
-     /* background-image: url(../img2/mainvisual.jpg); */
-     /* background-size: cover;
-     background-repeat: no-repeat; */
+.contact_us:hover{
+     background-color: rgba(50, 50, 50 ,98%);
 }
 
 #home img {
      width: 100%;
      height: auto;
+}
+
+.news_title{
+     position: relative;
+     right: ;
+     font-size: 36px;
+     text-align: center;
+     margin: 120px 0 60px 200px;
+     text-align: left;
+     p  {
+          font-size: 14px;
+     }
+}
+
+.news_wrapper{
+     display: flex;
+     justify-content: space-evenly;
+     margin-bottom: 120px;
+}
+
+.news{
+     font-size: 14px;
+     display: flex;
+     li{
+          list-style-type: none;
+     }
+}
+
+.news_date{
+     display: flex;
+     margin-bottom: 16px;
+}
+
+.news_date_inner{
+     color: #fff;
+     background-color: #000;
+     width: 50px;
+     height: 20px;
+     text-align: center;
+     align-items: center;
+     margin-left: 10px;
+}
+
+
+.about_wrapper{
+     display: flex;
+}
+
+.about_img img{
+     width: 770px;
+     height: 400px;
+}
+
+.about_content{
+     margin-left: 70px;
+}
+
+.about_title{
+     margin-bottom: 50px;
+     h2{
+          font-size: 36px;
+     }
+     p{
+          font-size: 14px;
+     }
+}
+
+.about_text{
+     line-height: 30.8px;
+}
+
+.buginess_title{
+     position: relative;
+     right: ;
+     font-size: 36px;
+     text-align: center;
+     margin: 120px 0 60px 200px;
+     text-align: left;
+     p  {
+          font-size: 14px;
+     }
 }
