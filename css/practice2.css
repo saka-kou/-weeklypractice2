@@ -5,6 +5,7 @@
 
 body{
      font-family: Arial, Helvetica, sans-serif;
+     background-color: #f0f0f0;
 }
 
 .header{
@@ -140,4 +141,67 @@ body{
      p  {
           font-size: 14px;
      }
+}
+
+.business_wrapper {
+     display: flex;
+}
+.buginess_content{
+     display: flex;
+     justify-content: center;
+     margin-bottom: 120px;
+     gap: 64px;
+}
+
+.about_buginess {
+     margin-bottom: 50px;
+     img{
+          width: 368px;
+          height: 232px;
+     }
+}
+
+.left_buginess{
+     justify-content: flex-end;
+}
+
+.right_buginess{
+     justify-content: flex-start;
+}
+
+.company_wrapper{
+     display: flex;
+     justify-content: space-evenly;
+     .company_table{
+          text-align: center;
+     }
+}
+
+.left_company{
+     width: 567px;
+     height: 622px;
+     background-color: #fff;
+}
+
+.company_title{
+     margin-bottom: 50px;
+     text-align: left;
+}
+
+.company_table{
+     font-size: 14px;
+     /* width: 366px; */
+     /* height: 266px; */
+tr th{
+     text-align: left;
+     margin-right: 29px;
+}
+td{
+     text-align: left;
+}
+}
+
+.right_company img{
+     width: 547px;
+     height: 400px;
 }
