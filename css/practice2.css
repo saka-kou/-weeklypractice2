@@ -169,39 +169,91 @@ body{
      justify-content: flex-start;
 }
 
-.company_wrapper{
+#company_wrapper{
+     height: 750px;
      display: flex;
-     justify-content: space-evenly;
-     .company_table{
-          text-align: center;
+     /* justify-content: center; */
+     position: relative;
+     align-items: center;
+
+}
+
+.wrapper{
+     width: 100%;
+     max-width: 1032px;
+     margin: 0 auto;
+     padding: 0 16px;
+}
+
+.company_title{
+     text-align: left;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: left;
+     margin-bottom: 86px;
+     h2{
+          letter-spacing: 10px;
+          font-size: 3rem;
+          font-weight: normal;
+     }
+}
+
+.company_table{
+     display: flex;
+     flex-direction: column;
+     line-height: 30px;
+     tr th{
+          font-weight: normal;
+          display: flex;
+          text-align: left;
+          width: 5.6rem;
      }
 }
 
 .left_company{
-     width: 567px;
-     height: 622px;
+     padding: 100px 139px 100px 62px;
      background-color: #fff;
+     position: absolute;
+     top: 0;
+     left: 0;
 }
 
-.company_title{
-     margin-bottom: 50px;
-     text-align: left;
+.right_company {
+     img{
+          width: 547px;
+          height: 400px;
+          position: absolute;
+          top: 20%;
+          left: 50%;
+     }
 }
 
-.company_table{
-     font-size: 14px;
-     /* width: 366px; */
-     /* height: 266px; */
-tr th{
-     text-align: left;
-     margin-right: 29px;
-}
-td{
-     text-align: left;
-}
+footer{
+     padding: 0 200px;
+     background-color: #fff;
+     height: 220px;
+     display: flex;
+     justify-content: space-between;
 }
 
-.right_company img{
-     width: 547px;
-     height: 400px;
+.left_footer{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 80px;
+     img{
+          width: 33%;
+          height: 33%;
+     }
+}
+
+.right_footer{
+          margin-top: 40px;
+          font-weight: lighter;
+          display: flex;
+          flex-direction: column;
+          p{
+               line-height: 25px;
+          }
 }
